@@ -51,7 +51,4 @@ $(TARGET): $(OBJS)
 PYTHON=python
 
 check: $(TARGET)
-	cd autotest/gcore && \
-	env GDAL_DRIVER_PATH=$(PWD):$(GDAL_DRIVER_PATH) \
-	PYTHONPATH=$(PWD)/autotest/pymod:$(PYTHONPATH) \
-	$(PYTHON) pixfun.py
+	$(PYTHON) tests/test_pixfun.py
