@@ -1,10 +1,8 @@
 gdal-pixfun-plugin
 ==================
 
-.. important::
-
-    This package is **obsolete**.  Pixel functions provided by this package
-    have been merged into `GDAL <http://www.gdal.org>`_.
+**IMPORTANT**: this package is **obsolete**.  Pixel functions provided by
+this package have been merged into `GDAL <http://www.gdal.org>`_.
 
 
 A gdal plugin that provides a small set of "pixel functions" (see
